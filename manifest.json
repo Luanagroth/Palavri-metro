@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Analisador de Palavras",
+  "version": "1.0",
+  "description": "Analisa as palavras mais frequentes da página atual.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Analisador de Palavras"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
