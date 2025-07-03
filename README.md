@@ -1,4 +1,4 @@
-# Palavri-metro
+
 # 🧠 Palavri-metro
 
 Uma extensão do Google Chrome para **analisar as palavras mais frequentes** de qualquer página da web, de forma simples, rápida e intuitiva.
