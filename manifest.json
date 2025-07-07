@@ -7,6 +7,7 @@
   "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html",
+<<<<<<< HEAD
     "default_title": "Analisador de Palavras",
     "default_icon": {
       "16": "icons/icon16.png",
@@ -20,8 +21,15 @@
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
+=======
+    "default_title": "Analisador de Palavras"
+>>>>>>> 7d107beb608306877b5a66a7c7056e2067cc57c7
   },
   "background": {
     "service_worker": "background.js"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7d107beb608306877b5a66a7c7056e2067cc57c7
