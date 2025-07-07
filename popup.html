@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Analisador de Palavras</title>
+  <style>
+    body { font-family: sans-serif; width: 300px; padding: 10px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ddd; padding: 4px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    input, button { margin-top: 5px; width: 100%; box-sizing: border-box; }
+    #resultadoBusca { margin-top: 10px; font-weight: bold; }
+    #totalPalavras { margin-top: 10px; display: block; font-style: italic; }
+  </style>
+</head>
+<body>
+  <h2>Palavras Frequentes</h2>
+
+  <button id="analisar">Analisar Página</button>
+
+  <table id="resultado">
+    <thead>
+      <tr><th>Palavra</th><th>Contagem</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <span id="totalPalavras"></span>
+
+  <input type="text" id="palavraBuscada" placeholder="Buscar palavra específica">
+  <button id="buscarPalavra">Buscar Palavra</button>
+
+  <div id="resultadoBusca"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
