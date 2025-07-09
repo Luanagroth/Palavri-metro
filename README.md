@@ -1,9 +1,18 @@
-
 # 🧠 Palavri-metro
 
 Uma extensão do Google Chrome para **analisar as palavras mais frequentes** de qualquer página da web, de forma simples, rápida e intuitiva.
 
 > 🔍 **Descubra quais palavras dominam o conteúdo de uma página!**
+
+---
+
+## 🖼️ Exemplo de uso
+
+Abaixo, uma demonstração da interface da extensão em funcionamento:
+
+![Extensão Palavri-metro funcionando](popup-inicial.png)
+
+> O usuário acessa uma página de notícia, clica na extensão e visualiza a contagem das palavras mais frequentes no conteúdo da página. É possível também buscar por uma palavra específica para saber quantas vezes ela aparece.
 
 ---
 
@@ -21,28 +30,17 @@ Além disso, você pode buscar por uma palavra específica e saber quantas vezes
 🔤 Buscar palavra específica  
 🧹 Ignora palavras comuns automaticamente (stopwords)  
 📊 Mostra o total de palavras diferentes  
-📎 Interface leve e fácil de usar
-
----
-
-## 🖼️ Interface
-
-Ao clicar na extensão, você verá:
-
-- Um botão "Analisar Página"
-- Uma tabela com palavras e contagens
-- Um campo para buscar palavra específica
-- Total de palavras diferentes encontradas
+📎 Interface leve e fácil de usar  
 
 ---
 
 ## 📂 Estrutura dos Arquivos
 
-```plaintext
 📁 palavri-metro/
-├── background.js        # Service Worker: loga instalação
-├── content.js           # Captura e processa o texto da página
-├── manifest.json        # Configurações da extensão (Manifest V3)
-├── popup.html           # Interface da extensão (HTML)
-├── popup.js             # Lógica da interface (JS)
-└── README.md            # Este arquivo de documentação
+├── background.js # Service Worker: loga instalação
+├── content.js # Captura e processa o texto da página
+├── manifest.json # Configurações da extensão (Manifest V3)
+├── popup.html # Interface da extensão (HTML)
+├── popup.js # Lógica da interface (JS)
+├── popup-inicial.png.png # Imagem usada no README
+└── README.md # Este arquivo de documentação
