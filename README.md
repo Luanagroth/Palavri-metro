@@ -33,14 +33,3 @@ Além disso, você pode buscar por uma palavra específica e saber quantas vezes
 📎 Interface leve e fácil de usar  
 
 ---
-
-## 📂 Estrutura dos Arquivos
-
-📁 palavri-metro/
-├── background.js # Service Worker: loga instalação
-├── content.js # Captura e processa o texto da página
-├── manifest.json # Configurações da extensão (Manifest V3)
-├── popup.html # Interface da extensão (HTML)
-├── popup.js # Lógica da interface (JS)
-├── popup-inicial.png.png # Imagem usada no README
-└── README.md # Este arquivo de documentação
